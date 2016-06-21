@@ -1,0 +1,39 @@
+[debug] 
+[debug] Initial source changes: 
+[debug] 	removed:Set()
+[debug] 	added: Set(/Users/david/Projects/tutorials/scala/FunctionalProgrammingInScala/workbench/Ch2_Module_ex.scala)
+[debug] 	modified: Set()
+[debug] Invalidated products: Set()
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated sources: Set(/Users/david/Projects/tutorials/scala/FunctionalProgrammingInScala/workbench/Ch2_Module_ex.scala)
+[debug] 
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set()
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] All initially invalidated sources: Set(/Users/david/Projects/tutorials/scala/FunctionalProgrammingInScala/workbench/Ch2_Module_ex.scala)
+[debug] Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+[info] Compiling 1 Scala source to /Users/david/Projects/tutorials/scala/FunctionalProgrammingInScala/workbench/target/scala-2.10/classes...
+[debug] Getting compiler-interface from component compiler for Scala 2.10.5
+[debug] Getting compiler-interface from component compiler for Scala 2.10.5
+[debug] Running cached compiler 14f478b1, interfacing (CompilerInterface) with Scala compiler version 2.10.5
+[debug] Calling Scala compiler with arguments  (CompilerInterface):
+[debug] 	-bootclasspath
+[debug] 	/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/classes:/Users/david/.sbt/boot/scala-2.10.5/lib/scala-library.jar
+[debug] 	-classpath
+[debug] 	/Users/david/Projects/tutorials/scala/FunctionalProgrammingInScala/workbench/target/scala-2.10/classes
+[debug] Scala compilation took 2.317009755 s
+[debug] Invalidating /Users/david/Projects/tutorials/scala/FunctionalProgrammingInScala/workbench/Ch2_Module_ex.scala...
+[debug] Invalidating (transitively) by inheritance from /Users/david/Projects/tutorials/scala/FunctionalProgrammingInScala/workbench/Ch2_Module_ex.scala...
+[debug] Initial set of included nodes: Set(/Users/david/Projects/tutorials/scala/FunctionalProgrammingInScala/workbench/Ch2_Module_ex.scala)
+[debug] Invalidated by transitive inheritance dependency: Set(/Users/david/Projects/tutorials/scala/FunctionalProgrammingInScala/workbench/Ch2_Module_ex.scala)
+[debug] The /Users/david/Projects/tutorials/scala/FunctionalProgrammingInScala/workbench/Ch2_Module_ex.scala source file has the following regular definitions changed:
+[debug] 	notify, wait, $asInstanceOf, formatAbs, equals, asInstanceOf, synchronized, $isInstanceOf, main, notifyAll, isInstanceOf, ==, clone, toString, !=, getClass, abs, ne, MyModule, eq, ##, finalize, hashCode.
+[debug] All member reference dependencies will be considered within this context.
+[debug] New invalidations:
+[debug] 	Set()
+[debug] Initial set of included nodes: Set()
+[debug] Previously invalidated, but (transitively) depend on new invalidations:
+[debug] 	Set()
+[debug] All newly invalidated sources after taking into account (previously) recompiled sources:Set()
